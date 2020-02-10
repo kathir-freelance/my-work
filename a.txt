@@ -1,3 +1,4 @@
+hiiii
 now modiffying..... -doing chnges here is file a
 added before commit , its in staging
 ==============================
