@@ -1,2 +1,5 @@
 this is file a
 added before commit , its in staging
+==============================
+
+my branch data
