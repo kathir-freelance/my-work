@@ -1,4 +1,5 @@
----- modiffying..... -doing chnges here is file a
+now modiffying..... -doing chnges here is file a
+myfirst
 added before commit , its in staging
 ==============================
 
