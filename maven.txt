@@ -1,0 +1,121 @@
+Maven
+
+- build tool
+	- building appln with dependency
+- lik ant
+- Proj Management tool
+
+problems :
+
+-  jar files
+- dependant jar files
+- versions
+- versions for group
+- proj structure
+- build , publish , deploy
+
+set path 
+
+JAVA_HOME should be set
+
+C:\Users\DELL\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\
+MAVEN_HOME
+M2_HOME - %MAVEN_HOME%\bin
+
+to generate the project:
+
+mvn archetype:generate -DartifactId=vehicle 
+-DarchetypeArtifactId=maven-archetype-quickstart 
+-DinteractiveMode=true
+ -DgroupId=com.aerospace
+ -Dpackage=jar
+
+
+mvn archetype:generate -DartifactId= OnlineStore
+-DarchetypeArtifactId=maven-archetype-webapp
+-DinteractiveMode=true
+ -DgroupId=com.aerospace
+ -Dpackage=war
+
+maven build life cycle
+
+	validate
+	compile
+	test
+	package
+	install
+	deploy
+
+
+
+mvn compile
+mvn package
+
+move to application folderr and give mvn tomcat:deploy
+
+for this server should be installed in system
+
+folllow this
+https://examples.javacodegeeks.com/enterprise-java/maven/how-to-deploy-maven-based-war-file-to-tomcat-example/
+
+
+Maven build:
+
+	if u have 5 java class
+	package them into executable
+
+test cases will run before package but will not be in the included in pkging
+
+this is not needed for running appln, only it tests
+
+
+build life cycle
+	compile
+	
+validate : config is proper, has xml files, java classes are in proper fmt
+compile:
+test : before packaging
+package : last - gives jar or war ...
+install : stores into local repo (.m2)
+
+Installing C:\Users\DELL\Desktop\maven_proj\qualityModule\pom.xml to C:\Users\DELL\.m2\repository\com\atos\qms\qualityModule\1\qualityModule-1.pom
+
+deploy : push to central rep
+	have to specify in pom.xml of proj where it should be pushed
+
+
+mvn:clean in proj folder:
+
+
+maven compiler plugin
+	add List<product> in class and version in plugin is 1.4 
+	throws error
+then 
+	chng version and mvn clean compile 
+maven tomcat plugin
+
+Jenkins:
+
+in command prompt:
+
+	java -jar jenkins.war 
+
+to change port use --httpPort=9090 alsong with above code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
