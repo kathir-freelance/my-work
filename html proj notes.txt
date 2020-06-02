@@ -1,0 +1,82 @@
+<!doctype html>
+
+add above then add 
+<html>
+
+then we can add some title, meta and connect to external css
+
+<head>
+<title>my page</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+then for responsiveness support add meta name="viewport"
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+then close <head/> tag
+
+open <body class="body">
+
+class=body -> is for css part
+
+
+inside body we are going to have a structure 
+
+as shown in pic--> refere to html p1
+
+then add image for logo of site in header tag
+
+<header>
+	<img src="img/logo.gif"/>
+
+then add some navigation links
+
+<nav><ul>
+<li> <a href="">Home</a></li>
+<li> <a href="">About</a></li>
+<li> <a href="">Portfolio</a></li> 
+<li> <a href="">Contact</a></li>
+</ul>
+</nav>
+
+close </header>
+
+then we can create content div
+
+<div class="maincontent">
+
+</div>
+
+we are gonna have multiple article
+so create another div and giv class for it
+
+<div="maincontent">
+<div="content">
+	<article class="topcontent">
+	<header><h2>post1</h2></header>
+	<footer>this was posted on. </footer>
+	<content>hi helo welcome</content>
+	</article>
+</div>
+</div>
+<aside class="top-sidebar">
+<article>
+<h2>top sidebar</h2>
+</article>
+</aside>
+
+<aside class="middle-sidebar">
+<article>
+<h2>middle sidebar</h2>
+</article>
+</aside>
+
+<aside class="bottom-sidebar">
+<article>
+<h2>bottom sidebar</h2>
+</article>
+</aside>
+
+
+atlast close </body>

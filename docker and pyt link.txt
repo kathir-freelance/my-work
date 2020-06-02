@@ -1,0 +1,6 @@
+https://automatetheboringstuff.com/chapter15/
+
+https://stackify.com/docker-tutorial/
+
+https://medium.com/@mbyfieldcameron/docker-on-windows-10-home-edition-c186c538dff3
+https://rominirani.com/docker-tutorial-series-a7e6ff90a023

@@ -1,0 +1,7 @@
+https://webapplog.com/es6/
+
+http://es6-features.org/#DateTimeFormatting
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
